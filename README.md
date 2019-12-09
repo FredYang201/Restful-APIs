@@ -13,3 +13,13 @@ This api provides access to the top 250 movies in IMDB. Each record consists of 
 [/moives/.json](http://fredimdb.herokuapp.com/movies/.json)   
 [/movies/?page=3](http://fredimdb.herokuapp.com/movies/?page=3)  
 [/movies/detail/movieId/](http://fredimdb.herokuapp.com/movies/detail/17925/)  
+
+## 3. NBA players
+The nba players api has: id, playerName, playerNumber, team, height, weight, birthday, age, years in nba, basketball position, link items in each record. It supports .json or .api format as its suffix_patterns. The feasible queries contain  
+[/nba/](http://frednba.herokuapp.com/nba/)  
+[/nba/.json](http://frednba.herokuapp.com/nba/.json)  
+[/nba/?page=3](http://frednba.herokuapp.com/nba/?page=3)  
+[/nba/age/24/](http://frednba.herokuapp.com/nba/age/24/)  
+[/nba/year_in_nba/3/](http://frednba.herokuapp.com/nba/year_in_nba/3/)  
+[/nba/position/Guard/](http://frednba.herokuapp.com/nba/position/Guard/)  
+[/nba/team/Utah Jazz/](http://frednba.herokuapp.com/nba/team/Utah%20Jazz/)
