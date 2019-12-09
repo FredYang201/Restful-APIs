@@ -23,3 +23,14 @@ The nba players api has: id, playerName, playerNumber, team, height, weight, bir
 [/nba/year_in_nba/3/](http://frednba.herokuapp.com/nba/year_in_nba/3/)  
 [/nba/position/Guard/](http://frednba.herokuapp.com/nba/position/Guard/)  
 [/nba/team/Utah Jazz/](http://frednba.herokuapp.com/nba/team/Utah%20Jazz/)
+
+## 4. Countries
+The countries api has: id, country name, capital of country, populations, area, continent, currency, phone prefix items in each record. It supports .json or .api format as its suffix_patterns. The feasible queries contain  
+[/country/](https://fredcountry.herokuapp.com/country/)  
+[/country/?format=json](https://fredcountry.herokuapp.com/country/?format=json)  
+[/country/?page=3](https://fredcountry.herokuapp.com/country/?page=3)  
+[/country/id/](https://fredcountry.herokuapp.com/country/24/)  
+[/country/name/](https://fredcountry.herokuapp.com/country/name/Argentina/)  
+[/country/capital/](https://fredcountry.herokuapp.com/country/capital/Buenos%20Aires/)  
+[/country/currency/](https://fredcountry.herokuapp.com/country/currency/Peso/)  
+[/country/continent/](https://fredcountry.herokuapp.com/country/continent/AS/)  
