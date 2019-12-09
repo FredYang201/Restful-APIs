@@ -9,7 +9,7 @@ The snippets api has: id, title, code, language, tyle items in each record. It a
 
 ## 2. Imdb movies
 This api provides access to the top 250 movies in IMDB. Each record consists of id, movieId, movie name, release year, rate, and link to the page of movies. It also supports .json or .api format as its suffix_patterns. The feasible queries contain  
-/movies/(http://fredimdb.herokuapp.com/movies/)  
-/moives/.json(http://fredimdb.herokuapp.com/movies/.json)   
-/movies/?page=3(http://fredimdb.herokuapp.com/movies/?page=3)  
-/movies/detail/movieId/(http://fredimdb.herokuapp.com/movies/detail/17925/)  
+[/movies/](http://fredimdb.herokuapp.com/movies/)  
+[/moives/.json](http://fredimdb.herokuapp.com/movies/.json)   
+[/movies/?page=3](http://fredimdb.herokuapp.com/movies/?page=3)  
+[/movies/detail/movieId/](http://fredimdb.herokuapp.com/movies/detail/17925/)  
