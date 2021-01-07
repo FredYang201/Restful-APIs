@@ -8,7 +8,7 @@ djangorestframework==3.10.3
 Faker==3.0.0
 gunicorn==20.0.4
 idna==2.8
-lxml==4.4.2
+lxml==4.6.2
 psycopg2==2.8.4
 python-dateutil==2.8.1
 pytz==2019.3
